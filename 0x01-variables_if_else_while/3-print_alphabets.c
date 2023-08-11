@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main function
- * Description: print alphabet in lowercase
+ * Description: print alphabet in lowercase,after that in uppercase
  * Return: alawys (0)
  */
 int main(void)
@@ -13,6 +13,14 @@ while (alpha <= 'z')
 	putchar(alpha);
 	alpha++;
 }
+
+alpha = 'A';
+while (alpha <= 'Z')
+{
+putchar(alpha);
+alpha++;
+}
+
 
 putchar('\n');
 
