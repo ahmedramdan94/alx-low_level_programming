@@ -5,19 +5,19 @@
  * Return:0
  */
 
+
 void print_most_numbers(void)
 {
-	int num;
+	char i = 0;
 
-	for (num = 0; num <= 9; num++)
+	while (i <= 9)
 	{
-		if (num == 2 || num == 4)
+		if (i != 2 && i != 4)
 		{
-			continue;
-
-			_putchar('0' + num);
+			_putchar('0' + i);
 		}
 
+		i++;
 	}
 	_putchar('\n');
 
